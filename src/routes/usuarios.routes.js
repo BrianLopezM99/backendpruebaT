@@ -1,6 +1,5 @@
 import { Router } from "express";
 import { pool } from "../db/db.js";
-import bcrypt from "bcrypt";
 import {
   createController,
   deleteUserController,
